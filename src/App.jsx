@@ -17,15 +17,15 @@ function App() {
           </div>
           <img
             src={User}
-            className="h-30 w-50 rounded-full object-cover"
+            className="h-28 w-52 rounded-full object-cover"
             alt="SelfImage"
           />
         </div>
       </section>
 
-      <section className="w-[600px] mx-auto mt-6">
+      <section className="w-[650px] mx-auto mt-6">
         <h1 className="text-2xl font-bold">About Me</h1>
-        <p className="text-xl text-neutral-600">
+        <p className="text-xl text-neutral-600 mt-4">
           I’m Sai Manikya Mallikharjun Khandavilli, a passionate React.js
           Developer with over 4 years of experience in building responsive,
           high-performance web applications. I specialize in React, JavaScript,
@@ -36,7 +36,7 @@ function App() {
         </p>
       </section>
 
-      <section className="w-[650px] mx-auto my-6">
+      <section className="w-[800px] mx-auto my-6">
         <h1 className="text-2xl font-bold">Work Experience</h1>
         <div className="mt-6">
           <div className="flex items-center gap-10">
@@ -49,7 +49,7 @@ function App() {
                 <p className="text-xl text-neutral-600">Software Engineer</p>
               </div>
             </div>
-            <p className="text-xl text-neutral-600 mt-6">Mar 2024 - Sept 2024</p>
+            <p className="text-xl text-neutral-400 mt-6">Mar 2024 - Sept 2024</p>
           </div>
         </div>
 
