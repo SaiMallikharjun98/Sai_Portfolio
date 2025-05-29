@@ -59,7 +59,7 @@ function App() {
 
         <div className="mt-6">
           <div className="flex items-center gap-10">
-            <div className="flex items-center">
+            <div className="flex items-center gap-15">
               <img src={Fidel} className="w-40 h-40 object-cover" alt="OLGA" />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">
@@ -76,7 +76,7 @@ function App() {
 
         <div className="mt-6">
           <div className="flex items-center gap-10">
-            <div className="flex items-center">
+            <div className="flex items-center gap-15">
               <img src={IDC} className="w-40 h-40 object-cover" alt="IDC" />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">
@@ -95,7 +95,7 @@ function App() {
 
         <div className="mt-6">
           <div className="flex items-center gap-10">
-            <div className="flex items-center">
+            <div className="flex items-center gap-15">
               <img
                 src={Grepthor}
                 className="w-40 h-40 object-cover"
