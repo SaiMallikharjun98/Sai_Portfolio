@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <section className="mt-24">
-        <div className="w-[600px] mx-auto flex items-center gap-15">
+        <div className="w-[700px] mx-auto flex items-center gap-15">
           <div className="">
             <h1 className="text-3xl font-bold">Hi, I'm Sai 👋</h1>
             <p className="text-xl text-neutral-600 mt-4">
@@ -17,13 +17,13 @@ function App() {
           </div>
           <img
             src={User}
-            className="h-28 w-52 rounded-full object-cover"
+            className="h-36 w-36 rounded-full object-cover"
             alt="SelfImage"
           />
         </div>
       </section>
 
-      <section className="w-[650px] mx-auto mt-6">
+      <section className="w-[700px] mx-auto mt-6">
         <h1 className="text-2xl font-bold">About Me</h1>
         <p className="text-xl text-neutral-600 mt-4">
           I’m Sai Manikya Mallikharjun Khandavilli, a passionate React.js
@@ -36,59 +36,81 @@ function App() {
         </p>
       </section>
 
-      <section className="w-[800px] mx-auto my-6">
+      <section className="w-[700px] mx-auto my-6">
         <h1 className="text-2xl font-bold">Work Experience</h1>
         <div className="mt-6">
           <div className="flex items-center gap-10">
             <div className="flex items-center gap-15">
-              <img src={OLGA} className="w-40 h-40" alt="OLGA" />
+              <img src={OLGA} className="w-40 h-40 object-cover" alt="OLGA" />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">
                   OLGA Technologies Pvt Ltd
                 </h2>
-                <p className="text-xl text-neutral-600">Software Engineer</p>
+                <p className="text-xl text-neutral-600 mt-2">
+                  Software Engineer
+                </p>
               </div>
             </div>
-            <p className="text-xl text-neutral-400 mt-6">Mar 2024 - Sept 2024</p>
+            <p className="text-xl text-neutral-400 mt-6">
+              Mar 2024 - Sept 2024
+            </p>
           </div>
         </div>
 
         <div className="mt-6">
-          <div className="flex">
-            <div className="flex">
-              <img src={Fidel} className="" alt="OLGA" />
-              <div className="">
-                <h2 className="">Fidel Technology Solutions Pvt Ltd</h2>
-                <p className="">Software Developer</p>
+          <div className="flex items-center gap-10">
+            <div className="flex items-center">
+              <img src={Fidel} className="w-40 h-40 object-cover" alt="OLGA" />
+              <div className="mt-6">
+                <h2 className="text-xl text-neutral-600">
+                  Fidel Technology Solutions Pvt Ltd
+                </h2>
+                <p className="text-xl text-neutral-600 mt-2">
+                  Software Developer
+                </p>
               </div>
             </div>
-            <p className="">Nov 2022 - Mar 2024</p>
+            <p className="text-xl text-neutral-400 mt-6">Nov 2022 - Mar 2024</p>
           </div>
         </div>
 
         <div className="mt-6">
-          <div className="flex">
-            <div className="flex">
-              <img src={IDC} className="" alt="IDC" />
-              <div className="">
-                <h2 className="">IDC Technologies Solutions Pvt Ltd</h2>
-                <p className="">Software Developer</p>
+          <div className="flex items-center gap-10">
+            <div className="flex items-center">
+              <img src={IDC} className="w-40 h-40 object-cover" alt="IDC" />
+              <div className="mt-6">
+                <h2 className="text-xl text-neutral-600">
+                  IDC Technologies Solutions Pvt Ltd
+                </h2>
+                <p className="text-xl text-neutral-600 mt-2">
+                  Software Developer
+                </p>
               </div>
             </div>
-            <p className="">Mar 2022 - Sept 2022</p>
+            <p className="text-xl text-neutral-400 mt-6">
+              Mar 2022 - Sept 2022
+            </p>
           </div>
         </div>
 
         <div className="mt-6">
-          <div className="flex">
-            <div className="flex">
-              <img src={Grepthor} className="" alt="Grepthor" />
-              <div className="">
-                <h2 className="">Grepthor Software Solutions Pvt Ltd</h2>
-                <p className="">Software Developer</p>
+          <div className="flex items-center gap-10">
+            <div className="flex items-center">
+              <img
+                src={Grepthor}
+                className="w-40 h-40 object-cover"
+                alt="Grepthor"
+              />
+              <div className="mt-6">
+                <h2 className="text-xl text-neutral-600">
+                  Grepthor Software Solutions Pvt Ltd
+                </h2>
+                <p className="text-xl text-neutral-600 mt-2">
+                  Software Developer
+                </p>
               </div>
             </div>
-            <p className="">Jan 2020 - Mar 2022</p>
+            <p className="text-xl text-neutral-400 mt-4">Jan 2020 - Mar 2022</p>
           </div>
         </div>
       </section>
