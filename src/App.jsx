@@ -41,7 +41,7 @@ function App() {
         <div className="mt-6">
           <div className="flex items-center gap-10">
             <div className="flex items-center gap-15">
-              <img src={OLGA} className="w-40 h-40 object-cover" alt="OLGA" />
+              <img src={OLGA} className="w-44 h-40 object-cover" alt="OLGA" />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">
                   OLGA Technologies Pvt Ltd
@@ -60,7 +60,7 @@ function App() {
         <div className="mt-6">
           <div className="flex items-center gap-10">
             <div className="flex items-center gap-15">
-              <img src={Fidel} className="w-40 h-40 object-cover" alt="OLGA" />
+              <img src={Fidel} className="w-44 h-40 object-cover" alt="OLGA" />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">
                   Fidel Technology Solutions Pvt Ltd
@@ -77,7 +77,7 @@ function App() {
         <div className="mt-6">
           <div className="flex items-center gap-10">
             <div className="flex items-center gap-15">
-              <img src={IDC} className="w-40 h-40 object-cover" alt="IDC" />
+              <img src={IDC} className="w-44 h-40 object-cover" alt="IDC" />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">
                   IDC Technologies Solutions Pvt Ltd
@@ -98,7 +98,7 @@ function App() {
             <div className="flex items-center gap-15">
               <img
                 src={Grepthor}
-                className="w-40 h-40 object-cover"
+                className="w-44 h-40 object-cover"
                 alt="Grepthor"
               />
               <div className="mt-6">
