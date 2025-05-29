@@ -36,10 +36,10 @@ function App() {
         </p>
       </section>
 
-      <section className="w-[600px] mx-auto my-6">
+      <section className="w-[650px] mx-auto my-6">
         <h1 className="text-2xl font-bold">Work Experience</h1>
         <div className="mt-6">
-          <div className="flex">
+          <div className="flex items-center gap-10">
             <div className="flex items-center gap-15">
               <img src={OLGA} className="w-40 h-40" alt="OLGA" />
               <div className="mt-6">
