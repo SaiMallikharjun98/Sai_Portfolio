@@ -1,13 +1,13 @@
 import User from "../public/sai_image.jpg";
 import OLGA from "../public/olga.jpeg";
 import Fidel from "../public/Fidel.jpeg";
-import IDC from "../public/IDC.png";
+import Idc from "../public/Idc.jpeg";
 import Grepthor from "../public/Grepthor.jpeg";
 function App() {
   return (
     <>
       <section className="mt-24">
-        <div className="w-[700px] mx-auto flex items-center gap-15">
+        <div className="w-[750px] mx-auto flex items-center gap-15">
           <div className="">
             <h1 className="text-3xl font-bold">Hi, I'm Sai 👋</h1>
             <p className="text-xl text-neutral-600 mt-4">
@@ -17,13 +17,13 @@ function App() {
           </div>
           <img
             src={User}
-            className="h-36 w-36 rounded-full object-cover"
+            className="h-36 w-44 rounded-full object-cover"
             alt="SelfImage"
           />
         </div>
       </section>
 
-      <section className="w-[700px] mx-auto mt-6">
+      <section className="w-[750px] mx-auto mt-6">
         <h1 className="text-2xl font-bold">About Me</h1>
         <p className="text-xl text-neutral-600 mt-4">
           I’m Sai Manikya Mallikharjun Khandavilli, a passionate React.js
@@ -36,7 +36,7 @@ function App() {
         </p>
       </section>
 
-      <section className="w-[700px] mx-auto my-6">
+      <section className="w-[750px] mx-auto my-6">
         <h1 className="text-2xl font-bold">Work Experience</h1>
         <div className="mt-6">
           <div className="flex items-center gap-10">
@@ -77,7 +77,7 @@ function App() {
         <div className="mt-6">
           <div className="flex items-center gap-10">
             <div className="flex items-center gap-15">
-              <img src={IDC} className="w-44 h-40 object-cover" alt="IDC" />
+              <img src={Idc} className="w-44 h-40 object-cover" alt="IDC" />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">
                   IDC Technologies Solutions Pvt Ltd
