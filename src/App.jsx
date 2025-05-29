@@ -51,7 +51,7 @@ function App() {
                 </p>
               </div>
             </div>
-            <p className="text-xl text-neutral-400 mt-6">
+            <p className="text-sm text-neutral-400 mt-6">
               Mar 2024 - Sept 2024
             </p>
           </div>
@@ -70,7 +70,7 @@ function App() {
                 </p>
               </div>
             </div>
-            <p className="text-xl text-neutral-400 mt-6">Nov 2022 - Mar 2024</p>
+            <p className="text-sm text-neutral-400 mt-6">Nov 2022 - Mar 2024</p>
           </div>
         </div>
 
@@ -87,7 +87,7 @@ function App() {
                 </p>
               </div>
             </div>
-            <p className="text-xl text-neutral-400 mt-6">
+            <p className="text-sm text-neutral-400 mt-6">
               Mar 2022 - Sept 2022
             </p>
           </div>
@@ -110,7 +110,7 @@ function App() {
                 </p>
               </div>
             </div>
-            <p className="text-xl text-neutral-400 mt-4">Jan 2020 - Mar 2022</p>
+            <p className="text-sm text-neutral-400 mt-4">Jan 2020 - Mar 2022</p>
           </div>
         </div>
       </section>
