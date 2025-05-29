@@ -7,23 +7,23 @@ function App() {
   return (
     <>
       <section className="mt-24">
-        <div className="w-[600px] mx-auto flex items-center gap-10">
+        <div className="w-[600px] mx-auto flex items-center gap-15">
           <div className="">
             <h1 className="text-3xl font-bold">Hi, I'm Sai 👋</h1>
-            <p className="text-xl text-neutral-600">
+            <p className="text-xl text-neutral-600 mt-4">
               A Software Developer who loves building clean, functional, and
               user-focused applications. Passionate about code, learning.
             </p>
           </div>
           <img
             src={User}
-            className="h-30 w-30 rounded-full object-cover"
+            className="h-30 w-50 rounded-full object-cover"
             alt="SelfImage"
           />
         </div>
       </section>
 
-      <section className="w-[600px] mx-auto">
+      <section className="w-[600px] mx-auto mt-6">
         <h1 className="text-2xl font-bold">About Me</h1>
         <p className="text-xl text-neutral-600">
           I’m Sai Manikya Mallikharjun Khandavilli, a passionate React.js
@@ -36,12 +36,12 @@ function App() {
         </p>
       </section>
 
-      <section className="w-[600px] mx-auto">
+      <section className="w-[600px] mx-auto my-6">
         <h1 className="text-2xl font-bold">Work Experience</h1>
         <div className="mt-6">
           <div className="flex">
-            <div className="flex items-center gap-10 justify-between">
-              <img src={OLGA} className="w-20 h-20" alt="OLGA" />
+            <div className="flex items-center gap-15">
+              <img src={OLGA} className="w-40 h-40" alt="OLGA" />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">
                   OLGA Technologies Pvt Ltd
@@ -49,7 +49,7 @@ function App() {
                 <p className="text-xl text-neutral-600">Software Engineer</p>
               </div>
             </div>
-            <p className="text-xl text-neutral-600">Mar 2024 - Sept 2024</p>
+            <p className="text-xl text-neutral-600 mt-6">Mar 2024 - Sept 2024</p>
           </div>
         </div>
 
