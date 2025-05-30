@@ -136,7 +136,7 @@ function App() {
         </div>
 
         <div className="mt-6">
-          <div className="flex items-center gap-10">
+          <div className="flex items-center gap-28">
             <div className="flex items-center gap-16">
               <img src={sri} className="w-44 h-40 object-cover" alt="OLGA" />
               <div className="mt-6">
@@ -153,7 +153,7 @@ function App() {
         </div>
 
         <div className="mt-6">
-          <div className="flex items-center gap-20">
+          <div className="flex items-center gap-28">
             <div className="flex items-center gap-16">
               <img src={Aditya} className="w-44 h-40 object-cover" alt="IDC" />
               <div className="mt-6">
