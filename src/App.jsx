@@ -42,7 +42,7 @@ function App() {
       <section className="w-[750px] mx-auto my-6">
         <h1 className="text-2xl font-bold">Work Experience</h1>
         <div className="mt-6">
-          <div className="flex items-center gap-20">
+          <div className="flex items-center gap-28">
             <div className="flex items-center gap-16">
               <img src={OLGA} className="w-44 h-40 object-cover" alt="OLGA" />
               <div className="mt-6">
@@ -136,7 +136,7 @@ function App() {
         </div>
 
         <div className="mt-6">
-          <div className="flex items-center gap-28">
+          <div className="flex items-center gap-24">
             <div className="flex items-center gap-16">
               <img src={sri} className="w-44 h-40 object-cover" alt="OLGA" />
               <div className="mt-6">
@@ -153,7 +153,7 @@ function App() {
         </div>
 
         <div className="mt-6">
-          <div className="flex items-center gap-34">
+          <div className="flex items-center gap-40">
             <div className="flex items-center gap-16">
               <img src={Aditya} className="w-44 h-40 object-cover" alt="IDC" />
               <div className="mt-6">
