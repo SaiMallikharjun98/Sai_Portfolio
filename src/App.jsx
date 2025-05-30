@@ -175,7 +175,7 @@ function App() {
            <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">HTML</p>
            <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">CSS</p>
            <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">Bootstrap</p>
-           <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">Tailwind CSS</p>
+           <p className="bg-black w-28 font-bold text-white text-sm rounded-sm p-2">Tailwind CSS</p>
            <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">JavaScript</p>
             <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">React JS</p>
           </div>
