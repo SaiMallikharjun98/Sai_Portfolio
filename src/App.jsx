@@ -20,7 +20,7 @@ function App() {
           </div>
           <img
             src={User}
-            className="h-36 w-44 rounded-full object-cover"
+            className="h-36 w-20 rounded-full object-cover"
             alt="SelfImage"
           />
         </div>
@@ -44,7 +44,7 @@ function App() {
         <div className="mt-6">
           <div className="flex items-center gap-28">
             <div className="flex items-center gap-16">
-              <img src={OLGA} className="w-44 h-40 object-cover" alt="OLGA" />
+              <img src={OLGA} className="w-20 h-20 object-cove rounded-fullr" alt="OLGA" />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">
                   OLGA Technologies Pvt Ltd
@@ -63,7 +63,7 @@ function App() {
         <div className="mt-6">
           <div className="flex items-center gap-10">
             <div className="flex items-center gap-16">
-              <img src={Fidel} className="w-44 h-40 object-cover" alt="OLGA" />
+              <img src={Fidel} className="w-20 h-20 object-cover rounded-full" alt="Fidel" />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">
                   Fidel Technology Solutions Pvt Ltd
@@ -80,7 +80,7 @@ function App() {
         <div className="mt-6">
           <div className="flex items-center gap-10">
             <div className="flex items-center gap-16">
-              <img src={Idc} className="w-44 h-40 object-cover" alt="IDC" />
+              <img src={Idc} className="w-20 h-20 object-cover rounded-full" alt="IDC" />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">
                   IDC Technologies Solutions Pvt Ltd
@@ -101,7 +101,7 @@ function App() {
             <div className="flex items-center gap-16">
               <img
                 src={Grepthor}
-                className="w-44 h-40 object-cover"
+                className="w-20 h-20 object-cover rounded-full"
                 alt="Grepthor"
               />
               <div className="mt-6">
@@ -123,7 +123,7 @@ function App() {
         <div className="mt-6">
           <div className="flex items-center gap-16">
             <div className="flex items-center gap-16">
-              <img src={Kiet} className="w-44 h-40 object-cover" alt="Kiet" />
+              <img src={Kiet} className="w-20 h-20 object-cover rounded-full" alt="Kiet" />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">KIET</h2>
                 <p className="text-xl text-neutral-600 mt-2">
@@ -138,7 +138,11 @@ function App() {
         <div className="mt-6">
           <div className="flex items-center gap-24">
             <div className="flex items-center gap-16">
-              <img src={sri} className="w-20 h-20 object-cover rounded-full" alt="OLGA" />
+              <img
+                src={sri}
+                className="w-20 h-20 object-cover rounded-full"
+                alt="OLGA"
+              />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">
                   Sri Chaitanya Junior Kalasala
@@ -155,7 +159,7 @@ function App() {
         <div className="mt-6">
           <div className="flex items-center gap-40">
             <div className="flex items-center gap-16">
-              <img src={Aditya} className="w-44 h-40 object-cover" alt="IDC" />
+              <img src={Aditya} className="w-20 h-20 object-cover rounded-full" alt="IDC" />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">
                   Aditya Public School
@@ -168,19 +172,31 @@ function App() {
         </div>
       </section>
 
-  <section className="w-[750px] mx-auto my-6">
+      <section className="w-[750px] mx-auto my-6">
         <h1 className="text-2xl font-bold">Skills</h1>
         <div className="mt-6">
           <div className="flex items-center gap-4 text-center">
-           <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">HTML</p>
-           <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">CSS</p>
-           <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">Bootstrap</p>
-           <p className="bg-black w-28 font-bold text-white text-sm rounded-sm p-2">Tailwind CSS</p>
-           <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">JavaScript</p>
-            <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">React JS</p>
+            <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">
+              HTML
+            </p>
+            <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">
+              CSS
+            </p>
+            <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">
+              Bootstrap
+            </p>
+            <p className="bg-black w-28 font-bold text-white text-sm rounded-sm p-2">
+              Tailwind CSS
+            </p>
+            <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">
+              JavaScript
+            </p>
+            <p className="bg-black w-20 font-bold text-white text-sm rounded-sm p-2">
+              React JS
+            </p>
           </div>
-          </div>
-          </section>
+        </div>
+      </section>
     </>
   );
 }
