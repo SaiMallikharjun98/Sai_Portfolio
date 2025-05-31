@@ -9,7 +9,7 @@ import Aditya from "../../public/Aditys.jpeg";
 import PCH from "../../public/PCH.png";
 import MLP from "../../public/MLP.png";
 import SIA from "../../public/SIA.png";
-import Sunwaso from "../../public/Sunwaso.jpg";
+import SWO from "../../public/Sunwaso.jpg";
 function Home() {
   return (
     <>
@@ -25,7 +25,7 @@ function Home() {
           <div>
             <img
               src={User}
-              className="h-40 w-40 rounded-full object-cover"
+              className="h-34 w-48 rounded-full object-cover"
               alt="SelfImage"
             />
           </div>
@@ -227,16 +227,16 @@ function Home() {
       <section className="w-[750px] mx-auto mt-6">
         <div>
           <h1 className="text-2xl font-bold">My Projects</h1>
-          <p className="text-xl text-center text-neutral-600 mt-4">
+          <p className="text-xl  text-neutral-600 mt-4">
             I've worked on a variety of projects, from simple websites to
             complex web applications. Here are a few of my favorites.
           </p>
         </div>
-        <div className="flex justify-center gap-10">
+        <div className="flex mt-6 gap-10">
           <img src={PCH} className="w-24 h-24 object-cover" alt="PCH" />
           <img src={MLP} className="w-24 h-24 object-cover" alt="MLP" />
           <img src={SIA} className="w-24 h-24 object-cover" alt="SIA" />
-          <img src={Sunwaso} className="w-24 h-24 object-cover" alt="Sunwaso" />
+          <img src={SWO} className="w-24 h-24 object-cover" alt="Sunwaso" />
         </div>
       </section>
     </>
