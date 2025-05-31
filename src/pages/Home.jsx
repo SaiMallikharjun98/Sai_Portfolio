@@ -25,7 +25,7 @@ function Home() {
           <div>
             <img
               src={User}
-              className="h-34 w-40 rounded-full object-cover"
+              className="h-34 w-52 rounded-full object-cover"
               alt="SelfImage"
             />
           </div>
