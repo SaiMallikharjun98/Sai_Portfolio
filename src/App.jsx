@@ -138,7 +138,7 @@ function App() {
         <div className="mt-6">
           <div className="flex items-center gap-24">
             <div className="flex items-center gap-16">
-              <img src={sri} className="w-44 h-40 object-cover" alt="OLGA" />
+              <img src={sri} className="w-44 h-40 object-cover rounded-full" alt="OLGA" />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">
                   Sri Chaitanya Junior Kalasala
