@@ -232,11 +232,11 @@ function Home() {
             complex web applications. Here are a few of my favorites.
           </p>
         </div>
-        <div className="flex mt-6 gap-10">
-          <img src={PCH} className="w-24 h-24 object-cover" alt="PCH" />
-          <img src={MLP} className="w-24 h-24 object-cover" alt="MLP" />
-          <img src={SIA} className="w-24 h-24 object-cover" alt="SIA" />
-          <img src={SWO} className="w-24 h-24 object-cover" alt="Sunwaso" />
+        <div className="flex mt-6 gap-16">
+          <img src={PCH} className="w-32 h-24 object-cover" alt="PCH" />
+          <img src={MLP} className="w-32 h-24 object-cover" alt="MLP" />
+          <img src={SIA} className="w-32 h-24 object-cover" alt="SIA" />
+          <img src={SWO} className="w-32 h-24 object-cover" alt="Sunwaso" />
         </div>
       </section>
     </>
