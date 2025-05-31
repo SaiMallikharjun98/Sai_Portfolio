@@ -20,7 +20,7 @@ function App() {
           </div>
           <img
             src={User}
-            className="h-36 w-20 rounded-full object-cover"
+            className="h-36 w-80 rounded-full object-cover"
             alt="SelfImage"
           />
         </div>
