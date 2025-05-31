@@ -25,7 +25,7 @@ function Home() {
           <div>
             <img
               src={User}
-              className="h-34 w-48 rounded-full object-cover"
+              className="h-34 w-40 rounded-full object-cover"
               alt="SelfImage"
             />
           </div>
@@ -236,7 +236,7 @@ function Home() {
           <img src={PCH} className="w-36 h-24 object-cover" alt="PCH" />
           <img src={MLP} className="w-36 h-24 object-cover" alt="MLP" />
           <img src={SIA} className="w-36 h-24 object-cover" alt="SIA" />
-          <img src={SWO} className="w-36 h-24 object-cover" alt="Sunwaso" />
+          <img src={SWO} className="w-40 h-24 object-cover" alt="Sunwaso" />
         </div>
       </section>
     </>
