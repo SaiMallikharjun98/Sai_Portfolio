@@ -6,23 +6,29 @@ import Grepthor from "../../public/Grepthor.jpeg";
 import Kiet from "../../public/Kiet.webp";
 import sri from "../../public/sri chaitanya.jpeg";
 import Aditya from "../../public/Aditys.jpeg";
+import PCH from "../../public/PCH.png";
+import MLP from "../../public/MLP.png";
+import SIA from "../../public/SIA.png";
+import Sunwaso from "../../public/Sunwaso.jpg";
 function Home() {
   return (
     <>
       <section className="mt-24">
         <div className="w-[750px] mx-auto flex items-center gap-15">
-          <div className="">
+          <div>
             <h1 className="text-3xl font-bold">Hi, I'm Sai 👋</h1>
             <p className="text-xl text-neutral-600 mt-4">
               A Software Developer who loves building clean, functional, and
               user-focused applications. Passionate about code, learning.
             </p>
           </div>
-          <img
-            src={User}
-            className="h-40 w-40 rounded-full object-cover"
-            alt="SelfImage"
-          />
+          <div>
+            <img
+              src={User}
+              className="h-40 w-40 rounded-full object-cover"
+              alt="SelfImage"
+            />
+          </div>
         </div>
       </section>
 
@@ -215,6 +221,22 @@ function Home() {
               React JS
             </p>
           </div>
+        </div>
+      </section>
+
+      <section className="w-[750px] mx-auto mt-6">
+        <div>
+          <h1 className="text-2xl font-bold">My Projects</h1>
+          <p className="text-xl text-center text-neutral-600 mt-4">
+            I've worked on a variety of projects, from simple websites to
+            complex web applications. Here are a few of my favorites.
+          </p>
+        </div>
+        <div className="flex justify-center gap-10">
+          <img src={PCH} className="w-24 h-24 object-cover" alt="PCH" />
+          <img src={MLP} className="w-24 h-24 object-cover" alt="MLP" />
+          <img src={SIA} className="w-24 h-24 object-cover" alt="SIA" />
+          <img src={Sunwaso} className="w-24 h-24 object-cover" alt="Sunwaso" />
         </div>
       </section>
     </>
