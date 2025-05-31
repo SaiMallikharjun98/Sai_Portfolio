@@ -232,7 +232,7 @@ function Home() {
             complex web applications. Here are a few of my favorites.
           </p>
         </div>
-        <div className="flex mt-6 gap-16">
+        <div className="flex my-6 gap-16">
           <img src={PCH} className="w-36 h-24 object-cover" alt="PCH" />
           <img src={MLP} className="w-36 h-24 object-cover" alt="MLP" />
           <img src={SIA} className="w-36 h-24 object-cover" alt="SIA" />
