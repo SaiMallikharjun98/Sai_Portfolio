@@ -6,7 +6,7 @@ import Grepthor from "../../public/Grepthor.jpeg";
 function Experience() {
   return (
     <>
-      <section className="w-[750px] mx-auto my-6" id="Experience">
+      <section className="w-[750px] mx-auto mt-16" id="Experience">
         <h1 className="text-2xl font-bold">Work Experience</h1>
         <div className="mt-6">
           <div className="flex items-center gap-28">
