@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="flex justify-between gap-3 font-bold text-xl w-[750px] mx-auto">
+      <div className="flex justify-between gap-5 font-bold text-xl w-[900px] mx-auto mt-5 fixed">
         <h3 className="text-2xl font-bold text-blue-500">SAI</h3>
         <Link to="/" className="hover:text-blue-700 cursor-pointer">
           Home
