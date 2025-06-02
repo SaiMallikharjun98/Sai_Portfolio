@@ -4,9 +4,15 @@ import axios from "axios";
 const Contact = () => {
   const firebaseUrl = import.meta.env.VITE_API_KEY;
   const { register, handleSubmit, reset } = useForm();
-  const submitHandler = (data) => {
-    axios.post(`${firebaseUrl}.contact.json`, { data });
-    reset();
+  const submitHandler = async (data) => {
+    try {
+      await axios.post(`${firebaseUrl}/contact.json`, { data });
+      alert("Message sent successfully!");
+      reset();
+    } catch (error) {
+      console.error("Error sending message:", error);
+      alert("Failed to send message. Please try again later.");
+    }
   };
 
   return (
@@ -28,7 +34,6 @@ const Contact = () => {
                 id="name"
                 placeholder="Enter Your Name"
                 required
-                autoComplete="name"
                 className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
               />
 
@@ -36,12 +41,11 @@ const Contact = () => {
                 Email
               </label>
               <input
-                type="email"
+                type="mail"
                 id="mail"
                 {...register("mail")}
                 placeholder="Enter Your Email"
                 required
-                autoComplete="email"
                 className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
               />
 
@@ -66,7 +70,6 @@ const Contact = () => {
                 {...register("message")}
                 placeholder="Enter Your Message"
                 required
-                autoComplete="off"
                 rows="5"
                 className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
               ></textarea>
