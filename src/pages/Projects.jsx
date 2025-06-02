@@ -6,7 +6,7 @@ import SWO from "../../public/Sunwaso.jpg";
 function Projects() {
   return (
     <>
-      <section id="Projects" className="w-[750px] mx-auto mt-16">
+      <section id="Projects" className="w-[750px] mx-auto mt-24">
         <div>
           <h1 className="text-2xl font-bold">My Projects</h1>
           <p className="text-xl  text-neutral-600 mt-4">

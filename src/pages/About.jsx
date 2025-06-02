@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <>
-      <section id="About" className="w-[750px] mx-auto mt-14">
+      <section id="About" className="w-[750px] mx-auto mt-24">
         <h1 className="text-2xl font-bold">About Me</h1>
         <p className="text-xl text-neutral-600 mt-4">
           I’m Sai Manikya Mallikharjun Khandavilli, a passionate React.js

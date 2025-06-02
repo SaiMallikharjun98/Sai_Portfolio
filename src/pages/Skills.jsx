@@ -3,7 +3,7 @@ import React from "react";
 function Skills() {
   return (
     <>
-      <section id="Skills" className="w-[750px] mx-auto mt-16">
+      <section id="Skills" className="w-[750px] mx-auto mt-24">
         <h1 className="text-2xl font-bold">Skills</h1>
         <div className="mt-6">
           <div className="flex items-center gap-4 text-center">

@@ -6,7 +6,7 @@ import Aditya from "../../public/Aditys.jpeg";
 function Education() {
   return (
     <>
-      <section id="Qualifications" className="w-[750px] mx-auto mt-16">
+      <section id="Qualifications" className="w-[750px] mx-auto mt-24">
         <h1 className="text-2xl font-bold">Education</h1>
         <div className="mt-6">
           <div className="flex items-center gap-16">
