@@ -28,12 +28,36 @@ function Home() {
               alt="SelfImage"
             />
           </div>
-          <div className="flex justify-center text-5xl bg-gray-800 text-white hover:text-blue-600 cursor-pointer">
+        </div>
+        <div className="flex justify-center gap-10">
+          <a
+            href="https://github.com/SaiMallikharjun98"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-5xl text-gray-700 hover:text-blue-600 cursor-pointer"
+          >
             <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/smmallikharjunkhandavilli"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-5xl text-gray-700 hover:text-blue-600 cursor-pointer"
+          >
             <FaLinkedin />
+          </a>
+          <a
+            href="mailto:mallikharjun7965@gmail.com"
+            className="text-5xl text-gray-700 hover:text-blue-600 cursor-pointer"
+          >
             <IoMail />
+          </a>
+          <a
+            href="tel:+918919842383"
+            className="text-5xl text-gray-700 hover:text-blue-600 cursor-pointer"
+          >
             <FaMobile />
-          </div>
+          </a>
         </div>
       </section>
 
