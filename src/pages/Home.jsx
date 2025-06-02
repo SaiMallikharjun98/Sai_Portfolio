@@ -29,7 +29,7 @@ function Home() {
             />
           </div>
         </div>
-        <div className="flex ml-52  mt-5 gap-10">
+        <div className="flex justify-center  mt-10  gap-10">
           <a
             href="https://github.com/SaiMallikharjun98"
             target="_blank"
