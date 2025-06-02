@@ -5,6 +5,10 @@ import Education from "./Education";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaMobile } from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
 function Home() {
   return (
     <>
@@ -23,6 +27,12 @@ function Home() {
               className="h-[150px] w-[280px] rounded-full object-cover"
               alt="SelfImage"
             />
+          </div>
+          <div className="flex justify-center text-5xl bg-gray-800 text-white hover:text-blue-600 cursor-pointer">
+            <FaGithub />
+            <FaLinkedin />
+            <IoMail />
+            <FaMobile />
           </div>
         </div>
       </section>
