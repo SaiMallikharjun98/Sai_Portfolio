@@ -29,7 +29,7 @@ function Home() {
             />
           </div>
         </div>
-        <div className="flex   mt-5 gap-10">
+        <div className="flex ml-24  mt-5 gap-10">
           <a
             href="https://github.com/SaiMallikharjun98"
             target="_blank"
