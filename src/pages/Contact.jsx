@@ -1,21 +1,12 @@
-import React, { useState } from "react";
-
+import React from "react";
+import { useForm } from "react-hook-form";
+import axios from "axios";
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    mail: "",
-    subject: "",
-    message: "",
-  });
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form Data Submitted:", formData);
-    // You can integrate an email service like EmailJS here
+  const firebaseUrl = import.meta.env.VITE_API_KEY;
+  const { register, handleSubmit, reset } = useForm();
+  const submitHandler = (data) => {
+    axios.post(`${firebaseUrl}.contact.json`, { data });
+    reset();
   };
 
   return (
@@ -26,18 +17,16 @@ const Contact = () => {
             Contact Me
           </h1>
 
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form onSubmit={handleSubmit(submitHandler)} className="space-y-6">
             <div className="flex flex-col gap-2">
               <label htmlFor="name" className="text-white font-medium">
                 Name
               </label>
               <input
+                {...register("name")}
                 type="text"
                 id="name"
-                name="name"
                 placeholder="Enter Your Name"
-                value={formData.name}
-                onChange={handleChange}
                 required
                 autoComplete="name"
                 className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
@@ -49,10 +38,8 @@ const Contact = () => {
               <input
                 type="email"
                 id="mail"
-                name="mail"
+                {...register("mail")}
                 placeholder="Enter Your Email"
-                value={formData.mail}
-                onChange={handleChange}
                 required
                 autoComplete="email"
                 className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
@@ -64,10 +51,8 @@ const Contact = () => {
               <input
                 type="text"
                 id="subject"
-                name="subject"
+                {...register("subject")}
                 placeholder="Enter Subject"
-                value={formData.subject}
-                onChange={handleChange}
                 required
                 autoComplete="off"
                 className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
@@ -78,10 +63,8 @@ const Contact = () => {
               </label>
               <textarea
                 id="message"
-                name="message"
+                {...register("message")}
                 placeholder="Enter Your Message"
-                value={formData.message}
-                onChange={handleChange}
                 required
                 autoComplete="off"
                 rows="5"
