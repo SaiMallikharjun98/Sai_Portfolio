@@ -34,7 +34,7 @@ const Contact = () => {
                 id="name"
                 placeholder="Enter Your Name"
                 required
-                className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 text-white"
               />
 
               <label htmlFor="mail" className="text-white font-medium">
@@ -46,7 +46,7 @@ const Contact = () => {
                 {...register("mail")}
                 placeholder="Enter Your Email"
                 required
-                className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 text-white"
               />
 
               <label htmlFor="subject" className="text-white font-medium">
@@ -59,7 +59,7 @@ const Contact = () => {
                 placeholder="Enter Subject"
                 required
                 autoComplete="off"
-                className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 text-white"
               />
 
               <label htmlFor="message" className="text-white font-medium">
@@ -71,7 +71,7 @@ const Contact = () => {
                 placeholder="Enter Your Message"
                 required
                 rows="5"
-                className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                className="p-3 border border-white rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 text-white"
               ></textarea>
             </div>
 
