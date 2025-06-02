@@ -5,7 +5,7 @@ function Navbar() {
     <>
       <div className="flex justify-center gap-14 font-bold text-xl w-full  fixed top-0 p-4 shadow-2xl bg-neutral-400">
         <h3 className="text-2xl font-bold text-white ml-5">SAI MANIKYA MALLIKHARJUN</h3>
-        <Link to="/" className="hover:text-blue-700  underline text-white cursor-pointer">
+        <Link to="/" className="hover:text-blue-700   text-white cursor-pointer">
           Home
         </Link>
         <Link
