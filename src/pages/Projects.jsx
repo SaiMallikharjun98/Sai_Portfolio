@@ -3,6 +3,7 @@ import PCH from "../../public/PCH.png";
 import MLP from "../../public/MLP.png";
 import SIA from "../../public/SIA.png";
 import SWO from "../../public/Sunwaso.jpg";
+import GW from "../../public/GoWash.png";
 function Projects() {
   return (
     <>
@@ -19,6 +20,7 @@ function Projects() {
           <img src={MLP} className="w-36 h-24 object-cover" alt="MLP" />
           <img src={SIA} className="w-36 h-24 object-cover" alt="SIA" />
           <img src={SWO} className="w-40 h-24 object-cover" alt="Sunwaso" />
+          <img src={GW} className="w-40 h-24 object-cover" alt="Gowash" />
         </div>
       </section>
     </>
