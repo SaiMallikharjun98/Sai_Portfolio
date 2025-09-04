@@ -1,6 +1,5 @@
 import React from "react";
-import OLGA from "../../public/olga.jpeg";
-import Fidel from "../../public/Fidel.jpeg";
+import Ventrek from "../../public/ventrek.jpeg";
 import Idc from "../../public/Idc.jpeg";
 import Grepthor from "../../public/Grepthor.jpeg";
 function Experience() {
@@ -12,26 +11,26 @@ function Experience() {
           <div className="flex items-center gap-28">
             <div className="flex items-center gap-16">
               <img
-                src={OLGA}
+                src={Ventrek}
                 className="w-20 h-20 object-cover rounded-fullr"
-                alt="OLGA"
+                alt="Ventrek"
               />
               <div className="mt-6">
                 <h2 className="text-xl text-neutral-600">
-                  OLGA Technologies Pvt Ltd
+                  Ventrek Solutions Pvt Ltd
                 </h2>
                 <p className="text-xl text-neutral-600 mt-2">
-                  Software Engineer
+                  Senior Software Engineer
                 </p>
               </div>
             </div>
             <p className="text-sm text-neutral-400 mt-6">
-              Mar 2024 - Sept 2024
+              Nov 2022 - Till Working
             </p>
           </div>
         </div>
 
-        <div className="mt-6">
+        {/* <div className="mt-6">
           <div className="flex items-center gap-10">
             <div className="flex items-center gap-16">
               <img
@@ -50,7 +49,7 @@ function Experience() {
             </div>
             <p className="text-sm text-neutral-400 mt-6">Nov 2022 - Mar 2024</p>
           </div>
-        </div>
+        </div> */}
 
         <div className="mt-6">
           <div className="flex items-center gap-10">
